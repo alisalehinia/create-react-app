@@ -93,6 +93,7 @@ module.exports = function (
 
   if (!templateName) {
     console.log('');
+    console.log("ali salehinia react-script override");
     console.error(
       `A template was not provided. This is likely because you're using an outdated version of ${chalk.cyan(
         'create-react-app'
@@ -132,7 +133,7 @@ module.exports = function (
     console.log(
       chalk.red(
         'Root-level `dependencies` and `scripts` keys in `template.json` were deprecated for Create React App 5.\n' +
-          'This template needs to be updated to use the new `package` key.'
+        'This template needs to be updated to use the new `package` key.'
       )
     );
     console.log('For more information, visit https://cra.link/templates');
